@@ -55,7 +55,10 @@ Unicorn Tears
 print (welcom)
 
 
-while 1:
+def resturent():
+
+
+ while 1:
   iput_fromuser = input('> ')
   if iput_fromuser == 'quit':
     break
@@ -70,3 +73,5 @@ while 1:
       print('** ' + str(val) + ' orders of ' + key + ' added to your meal **')
     else:
       continue
+
+resturent()
